@@ -2,7 +2,7 @@
 
    <h1> 30天学习React中文版</h1>
  
-   翻译自 [30 Days Of React: Getting Started React](https://github.com/Asabeneh/30-Days-Of-React)
+   翻译自 [30 Days Of React](https://github.com/Asabeneh/30-Days-Of-React)
 
 </div>
 <div>
@@ -11,45 +11,47 @@
 
 
 
-[Day 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
+[第一天 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
 
-| # Day |                                                           Topics                                                            |
+<span>因为第一天是JavaScript的基础，暂时没决定翻译</span>
+
+| # Day |                                                           主题                                                            |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------: |
-|00|[Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup)|
-|01|[JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)|
-|02|[Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)|
-|03|[Setting Up](./03_Day_Setting_Up/03_setting_up.md)|
-|04|[Components](./04_Day_Components/04_components.md)|
+|00|[介绍](#介绍)<br>[依赖](#依赖) <br>[如何使用此库](#如何使用此库)<br> [安装](#安装)|
+|01|[JavaScript 相关基础](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)|
+|02|[React入门](./02_Day_Introduction_to_React/02_introduction_to_react-CN.md)|
+|03|[安装](./03_Day_Setting_Up/03_setting_up.md)|
+|04|[组件](./04_Day_Components/04_components.md)|
 |05|[Props](./05_Day_Props/05_props.md)|
-|06|[List, Map and Keys](./06_Day_Map_List_Keys/06_map_list_keys.md)|
-|07|[Class Components](./07_Day_Class_Components/07_class_components.md)|
+|06|[列表, Map and Keys](./06_Day_Map_List_Keys/06_map_list_keys.md)|
+|07|[类组件](./07_Day_Class_Components/07_class_components.md)|
 |08|[States](./08_Day_States/08_states.md)|
-|09|[Conditional Rendering](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
-|10|[React Project Folder Structure](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
-|11|[Events](./11_Day_Events/11_events.md)|
-|12|[Forms](./12_Day_Forms/12_forms.md)|
-|13|[Controlled and Uncontrolled Component](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)|
-|14|[Component Life Cycles](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)|
-|15|[Third Party Packages](./15_Third_Party_Packages/15_third_party_packages.md)|
-|16|[Higher Order Components](./16_Higher_Order_Component/16_higher_order_component.md)|
-|17|[React Router](./17_React_Router/17_react_router.md)|
-|18|[Fetch versus Axios](./18_Fetch_And_Axios/18_fetch_axios.md)|
-|19|[Projects](./19_projects/19_projects.md)|
-|20|[Projects](./20_projects/20_projects.md)|
+|09|[条件渲染](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
+|10|[React文件结构](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
+|11|[事件](./11_Day_Events/11_events.md)|
+|12|[表单](./12_Day_Forms/12_forms.md)|
+|13|[受控组件和非受控组件](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)|
+|14|[组件的生命周期](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)|
+|15|[第三库](./15_Third_Party_Packages/15_third_party_packages.md)|
+|16|[高级组件](./16_Higher_Order_Component/16_higher_order_component.md)|
+|17|[React路由](./17_React_Router/17_react_router.md)|
+|18|[通过 Axios获取数据](./18_Fetch_And_Axios/18_fetch_axios.md)|
+|19|[项目1](./19_projects/19_projects.md)|
+|20|[项目2](./20_projects/20_projects.md)|
 |21|[Hooks](./21_Introducing_Hooks/21_introducing_hooks.md)|
-|22|[Forms Using Hook](./22_Form_Using_Hooks/22_form_using_hooks.md)|
-|23|[Fetching Data Using Hooks](./23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks.md)|
-|24|[Project using Hooks](./24_projects/24_projects.md)|
-|25|[Custom Hooks](./25_Custom_Hooks/25_custom_hooks.md)|
+|22|[表单使用Hooks](./22_Form_Using_Hooks/22_form_using_hooks.md)|
+|23|[使用Hooks获取数据](./23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks.md)|
+|24|[项目使用Hooks](./24_projects/24_projects.md)|
+|25|[传统Hooks](./25_Custom_Hooks/25_custom_hooks.md)|
 |26|[Context](./26_Context/26_context.md)|
 |27|[Ref](./27_Ref/27_ref.md)|
-|28|[project](./28_project/28_project.md)|
-|29|[Explore](./29_explore/29_explore.md)|
-|30|[Conclusions](./30_conclusions/30_conclusions.md)|
+|28|[项目3](./28_project/28_project.md)|
+|29|[探索](./29_explore/29_explore.md)|
+|30|[结论](./30_conclusions/30_conclusions.md)|
 
 
 
-🧡🧡🧡 HAPPY CODING 🧡🧡🧡
+🧡🧡🧡 享受编程 🧡🧡🧡
 <div>
 
 
@@ -65,66 +67,63 @@ Support [*Asabeneh*](https://www.patreon.com/asabeneh?fan_landing=true) to creat
 
 ---
 
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [How to Use Repo](#how-to-use-repo)
-  - [Star and Fork this Repo](#star-and-fork-this-repo)
-  - [Clone your Fork](#clone-your-fork)
-  - [Create a New Branch](#create-a-new-branch)
-  - [Structure Exercise Solutions](#structure-exercise-solutions)
-  - [Commit Exercise Solutions](#commit-exercise-solutions)
-  - [Update your Fork Daily](#update-your-fork-daily)
-- [Setup](#setup)
-  - [Install Node.js](#install-nodejs)
-  - [Browser](#browser)
-    - [Installing Google Chrome](#installing-google-chrome)
-    - [Opening Google Chrome Console](#opening-google-chrome-console)
-    - [Writing Code on Browser Console](#writing-code-on-browser-console)
-      - [Console.log](#consolelog)
-      - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-      - [Comments](#comments)
-      - [Syntax](#syntax)
-    - [Arithmetics](#arithmetics)
-  - [Code Editor](#code-editor)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-    - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+- [介绍](#介绍)
+- [依赖](#依赖)
+- [如何使用此库](#如何使用此库)
+  - [Star and Fork 这个库](#star-and-fork-这个库)
+  - [Clone 到自己](#clone-到自己)
+  - [创建新的分支](#创建新的分支)
+  - [新建练习库](#新建练习库)
+  - [提交练习库](#提交练习库)
+  - [每天更新你的库](#每天更新你的库)
+- [安装](#安装)
+  - [安装NodeJS](#安装nodejs)
+  - [浏览器](#浏览器)
+    - [安装谷歌浏览器](#安装谷歌浏览器)
+    - [打开谷歌浏览器开发者工具](#打开谷歌浏览器开发者工具)
+    - [在浏览器的开发者工具组写代码](#在浏览器的开发者工具组写代码)
+      - [打印](#打印)
+      - [具有多个参数的Console.log](#具有多个参数的consolelog)
+      - [注释](#注释)
+      - [语法](#语法)
+    - [算术运算](#算术运算)
+  - [代码编辑器](#代码编辑器)
+    - [安装Visual Studio Code](#安装visual-studio-code)
+    - [如何使用Visual Studio Code](#如何使用visual-studio-code)
 
 ---
 
-## Introduction
+## 介绍
 
-**Congratulations** on deciding to participate in 30 days of React programming challenge. In this challenge you will learn everything you need to use to develop a React application. In the end of the challenge you will get a 30DaysOfReact programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/thirtydaysofreact).
+**恭喜你**决定参加30天的React编程挑战赛。在这个挑战中，您将学习开发React应用程序所需的一切。挑战结束时，您将获得30DaysOfReact编程挑战完成证书。如果您需要帮助或想帮助他人，可以加入 [telegram group](https://t.me/thirtydaysofreact).
 
-**A 30DaysOfReact** challenge is a guide for both beginners and advanced JavaScript and React developers. Welcome to 30 Days Of React. React is a JavaScript library. I enjoy using and teaching React and I hope you will do so too.
-In this step by step 30 Days React challenge, you will learn React which is one of most popular user interface JavaScript libraries.
-React can do everything that JavaScript can do. React can be used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_**.
-I believe you will learn quite a lot in the next 30 days and your programming and problem solving skills will also be improved significantly.
+**A 30DaysOfReact** 挑战是面向初学者以及高级JavaScript和React开发人员的指南。欢迎来到30天的React。React是一个JavaScript库。我喜欢使用和教React，也希望您也能这样做。在分步进行的30天的React挑战中，您将学习React，这是最受欢迎的用户界面JavaScript库之一。React可以完成JavaScript可以做的一切。React可用 **向网站添加交互性，以开发移动应用，桌面应用，游戏**.
+我相信您将在接下来的30天内学到很多东西，并且您的编程和解决问题的能力也会得到显着提高。
 
-I will use conversational English and less jargons to write this challenge. The content will be continuously updated. If you find a typo or grammar mistakes don't be surprised because I don't do any proof read before I publish it. I would recommend you to focus on the main message of the challenge instead of the English and some minor mistakes. I really appreciate if you send me pull requests for improvement and remember to pull first from master before you send pull requests. Most of the images I have used in this challenge came from 30DaysOfJavaScript challenge therefore you may need to rename file names and folders 30DaysOfReact.
-If you are good at arrays, loops, functions, objects, functional programming, destructuring and spreading and class then you will be able to follow the challenge properly. Otherwise, I strongly recommend you to check [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript).
 
-Before you dive into this course, you may check the [review](https://t.me/thirtydaysofreact/992) of 30 Days Of React. 
+ **我对有些地方就直接采用机翻来翻译，如果有读不懂的可以去看一下原文，我也是第一次去尝试边学习边翻译，如果大家有星期的话可以一起来学习，我也是乘机学习一次啊React，有写基础性的我就不翻译了，因为名词很难懂，这里作者还有一些30天学习的项目，如果想学习JavaScript的知识可以去学习 [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 这个项目**
 
-## Requirements
 
-To get along with the challenge you need to have the following:
+## 依赖
 
-1. Motivation
-2. A computer
-3. Internet
-4. A browser
-5. A code editor
-6. HTML, CSS and JavaScript intermediate level skill
+为了与挑战相处，您需要具备以下条件：
 
-## How to Use Repo
+1. 学习动力
+2. 一台电脑
+3. 互联网
+4. 浏览器
+5. IDE
+6. HTML，CSS和JavaScript中级技能
 
-### Star and Fork this Repo
+## 如何使用此库
 
-Star this repo to support this work and Fork the repo to create your own copy to work from.
+### Star and Fork 这个库
 
-### Clone your Fork
+给我一个Star 或者 Fork这个库自己去学习把
 
-You should always work directly from your forked copy.
+### Clone 到自己
+
+您应该始终直接从分支副本中进行工作
 
 ```bash
 # note that an `ssh` link is used here, but an `https` link will work the same
@@ -132,26 +131,26 @@ git clone git@github.com:username/30-Days-Of-React.git
 cd 30-Days-Of-React
 ```
 
-### Create a New Branch
+### 创建新的分支
 
-To complete daily exercises, my suggestion is to create a separate branch to house your exercise folder or any other changes you make. This will keep your master branch clean at all times, which means your master will always be similar to the original master.
+为了完成日常锻炼，我的建议是创建一个单独的分支来容纳您的锻炼文件夹或您进行的任何其他更改。这将使您的master分支始终保持干净，这意味着您的master始终与原始master相似。
 
 ```bash
 git checkout -b exercise-solutions # `-b` creates the branch if it does not exist
 ```
 
-### Structure Exercise Solutions
+### 新建练习库
 
-In your new branch, you can use files/folders to structure your solutions to daily exercises
+在新分支中，您可以使用文件/文件夹来构建日常练习的解决方案
 
 ```bash
 mkdir -p solutions/day-01 # `-p` helps create nested directories
 touch solutions/day-01/level1.js # touch creates a file
 ```
 
-### Commit Exercise Solutions
+### 提交练习库
 
-Commit your solutions to your Fork
+将您的解决方案提交给你自己的Fork
 
 ```bash
 git add solutions/day-01/level1.js
@@ -159,9 +158,9 @@ git commit -m "chore: exercise level1 complete"
 git push origin exercise-solutions # branch `exercise-solutions` was created earlier
 ```
 
-### Update your Fork Daily
+### 每天更新你的库
 
-This repo will be updated daily throughout the month. When a new day's content becomes available, you can update your forked copy with the steps below.
+此仓库将在整个月中每天更新。当新的一天的内容可用时，您可以按照以下步骤更新您的分叉副本。
 
 ```bash
 # 1. switch to master branch
@@ -180,53 +179,53 @@ git merge upstream/master master
 git push origin master
 ```
 
-> Note that the updates are only applied to the master branch. If you wish to update any other branch, repeat steps 6-7 with the branch name. See snippet below for `exercise-solutions` branch
+> 请注意，更新仅应用于master分支。如果您希望更新任何其他分支，请使用分支名称重复步骤6-7。请参阅下面的代码段以获取`exercise-solutions`分支
 
 ```bash
 git merge upstream/master exercise-solutions
 git push origin exercise-solutions
 ```
 
-## Setup
+## 安装
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. In addition to that basic to intermediate level HTML, CSS and JS. If you have those, then you have everything to get started.
+我相信您有成为开发人员，计算机和互联网的动力和强烈愿望。除了基本到中级的HTML，CSS和JS。如果您有这些，那么您就有一切开始
 
-### Install Node.js
+### 安装NodeJS
 
-You may not need node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+您现在可能不需要node.js，但以后可能需要它。安装[node.js](https://nodejs.org/en/).
 
 ![Node download](images/download_node.png)
 
-After downloading double click and install
+下载后双击安装
 
 ![Install node](images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+我们可以通过打开设备终端或命令提示符来检查是否在本地计算机上安装了Node
 
 ```sh
 asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using node version 12.14.0, but now the recommended version of node.js for download is 12.17.0.
+在制作本教程时，我使用的是节点版本12.14.0，但是现在建议下载的node.js版本是12.17.0
 
-### Browser
+### 浏览器
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+有许多浏览器。但是，我强烈建议您使用Google Chrome。
 
-#### Installing Google Chrome
+#### 安装谷歌浏览器
 
-Install [google chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+如果您还没有 [google chrome](https://www.google.com/chrome/)，请安装它。我们可以在浏览器控制台上编写小的JavaScript代码，但是我们不使用浏览器控制台来开发应用程序。
 
 ![Google Chrome](images/google_chrome.png)
 
-#### Opening Google Chrome Console
+#### 打开谷歌浏览器开发者工具
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+您可以通过单击浏览器右上角的三个点，然后选择“更多工具->开发者工具”或使用键盘快捷键来打开Goog​​le Chrome控制台。我更喜欢使用快捷方式。
 
 ![Opening chrome](images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut. It is good to know the shortcut too as a JavaScript and React developer you will spend much time on a browser console and don't be lazy to open it during development.
+使用键盘快捷键打开Chrome控制台。作为JavaScript和React开发人员，也应该知道快捷方式，您会在浏览器控制台上花费大量时间，并且在开发过程中不会懒于打开它。
 
 ```sh
 Mac
@@ -238,14 +237,13 @@ Ctl+Shift+J
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+打开Goog​​le Chrome控制台后，尝试浏览标记的按钮。我们将大部分时间花在控制台上。控制台是您的JavaScript代码所在的地方。Google Console V8引擎将您的JavaScript代码更改为机器代码。让我们在Google Chrome控制台上编写JavaScript代码：
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### 在浏览器的开发者工具组写代码
 
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+我们可以在Google控制台或任何浏览器控制台上编写任何JavaScript代码。但是，对于这一挑战，我们仅关注Google Chrome控制台。使用以下命令打开控制台：
 
 ```sh
 Mac
@@ -255,17 +253,17 @@ Windows:
 Ctl+Shift+I
 ```
 
-##### Console.log
+##### 打印
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed 'Hello, World' as input data or argument in the console.log() function.
+为了编写第一个JavaScript代码，我们使用了内置函数**console.log（）**。我们传递了一个参数作为输入数据，该函数显示了输出。我们在console.log（）函数中传递了“ Hello，World”作为输入数据或参数。
 
 ```js
 console.log('Hello, World!')
 ```
 
-##### Console.log with Multiple Arguments
+##### 具有多个参数的Console.log
 
-The **console.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
+ **console.log()** 函数可以取多个参数分离由逗号。语法如下所示:**console.log(param1, param2, param3)**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -275,41 +273,39 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _console.log()_ can take multiple arguments. It is recommended to use as many console.log() prints to check what is happening in your code but don't keep all console.log() tests on your code forever. Make your life easy by keeping the browser console open.
+从上面的代码段可以看出，console.log（）可以使用多个参数。建议使用尽可能多的console.log（）打印来检查代码中正在发生的事情，但不要永远在代码上保留所有console.log（）测试。保持浏览器控制台打开，使生活变得轻松。
 
-##### Comments
+##### 注释
 
-We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code.In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this /\* \*/ is also a comment.
+我们在代码中添加注释。注释对于使代码更具可读性并在我们的代码中留下备注非常重要。JavaScript不会执行代码的注释部分，在JavaScript中，以//开头的任何文本行都是注释，而像/ * * /这样的内容也是注释。
 
-**Example: Single Line Comment**
+**示例：单行注释**
 
-// This is the first comment  
- // This is the second comment  
- // I am a single line comment
+//这是第一条注释
+//这是第二条注释
+//我是一行注释
 
-**Example: Multiline Comment**
+**示例：多行注释**
 
-/\*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
- \*/
+/ *这是一个多行注释
+多行注释可以占用多行
+JavaScript是网络语言* /
 
-##### Syntax
+##### 语法
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is _the structure of statements in a computer language._ Programing languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+编程语言与人类语言相似。英语或许多其他语言使用单词，短语，句子，复合句子及其他内容来传达有意义的信息。语法的英语含义是单词和短语的排列，以创建一种语言形式良好的句子。语法的技术定义是计算机语言中语句的结构。编程语言具有语法。JavaScript是一种编程语言，并且像其他编程语言一样，它具有自己的语法。如果我们没有编写JavaScript可以理解的语法，它将引发不同类型的错误。稍后我们将探讨各种JavaScript错误。现在，让我们看看语法错误
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+我故意犯了一个错误。结果，控制台引发语法错误。实际上，语法非常有用。它告知您犯了什么类型的错误。通过阅读错误反馈指南，我们可以更正语法并解决问题。从程序中识别和消除错误的过程称为调试。让我们修复错误：
 
 ```js
 console.log("Hello, World!")
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _console.log()_. If we are printing text or string using _console.log()_, the text has to be inside the single quotes, double quotes, or a backtick quotes.
-**Example:**
+到目前为止，我们已经看到了如何使用console.log（）显示文本。如果我们使用console.log（）打印文本或字符串，则文本必须在单引号，双引号或反引号内
+**示例:**
 
 ```js
 console.log('Hello, World!')
@@ -317,11 +313,9 @@ console.log('Hello, World!')
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### 算术运算
 
-Now, let us practice more writing JavaScript codes using _console.log()_ on google chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-The console can directly take arguments without the **_console.log()_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+现在，让我们练习更多使用google chrome控制台上的console.log（）编写数字数据类型的JavaScript代码。除了文本之外，我们还可以使用JavaScript进行数学计算。让我们进行以下简单计算。控制台可以直接使用参数，而无需**_console.log（）_**函数。但是，它包含在本简介中，因为大多数挑战将在文本编辑器中进行，在该文本编辑器中必须强制使用该功能。您可以直接按照控制台上的说明进行操作。
 
 ![Arithmetic](images/arithmetic.png)
 
@@ -334,21 +328,21 @@ console.log(3 % 2) // Modulus - finding remainder
 console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 ```
 
-### Code Editor
+### 代码编辑器
 
-We can write our codes on the browser console, but it won't do for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days JavaScript challenge, we will be using Visual Studio Code.
+我们可以在浏览器控制台上编写代码，但不适用于较大的项目。在真实的工作环境中，开发人员使用不同的代码编辑器来编写他们的代码。在这30天的JavaScript挑战中，我们将使用Visual Studio Code
 
-#### Installing Visual Studio Code
+#### 安装Visual Studio Code
 
-Visual studio code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio代码是一种非常流行的开源文本编辑器。我建议 [下载 Visual Studio Code](https://code.visualstudio.com/), 但是如果您赞成其他编辑器，请随时关注现有内容。
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+如果您安装了Visual Studio Code，让我们开始使用它。
 
-#### How to Use Visual Studio Code
+#### 如何使用Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+通过双击其图标打开Visual Studio代码。当您打开它时，您将获得这种界面。尝试与带有标签的图标进行交互。
 
 ![Vscode ui](./images/vscode_ui.png)
 
@@ -364,8 +358,8 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 
 ![coding running](./images/launched_on_new_tab.png)
 
-Congratulations! You have completed the setup you need to get started with React, but before we dive into React let's do a JavaScript refresher. If you are very comfortable with JavaScript you may skip day 1 JavaScript refresher. The JavaScript refresher section is vast and it may take more than one day. From my experience people usually get stuck in React because their JavaScript knowledge is very shallow therefore to fill that gap all the necessary JavaScript features which can be used in React are covered in the JavaScript refresher section. There are many exercises but you are not required to solve them. Click [here](../30-Days-Of-React/02_Day_Introduction_to_React/02_introduction_to_react.md) if you want skip JavaScript and jump directly into React.
+恭喜你！您已经完成了开始使用React所需的设置，但是在深入研究React之前，让我们做一个JavaScript复习。如果您对JavaScript非常满意，则可以跳过第一天的JavaScript复习。JavaScript复习部分内容丰富，可能需要一天以上的时间。根据我的经验，人们通常会被困在React中，因为他们的JavaScript知识很浅，因此，为了弥补这一空白，可在React的JavaScript复习部分中介绍可在React中使用的所有必需的JavaScript功能。有许多练习，但是您不需要解决它们。如果您想跳过JavaScript并直接跳入React，请单击[这里](../30-Days-Of-React/02_Day_Introduction_to_React/02_introduction_to_react-CN.md) 
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Day 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
+[第一天 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
