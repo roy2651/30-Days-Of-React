@@ -1,22 +1,15 @@
+<div align="center">
+
+   <h1> 30天学习React中文版</h1>
+ 
+   翻译自 [30 Days Of React: Getting Started React](https://github.com/Asabeneh/30-Days-Of-React)
+
+</div>
 <div>
 <img align="right" width="100%"  src="./images/30_days_of_react.jpg" />
 </div>
 
-<div align="center">
 
-  <h1> 30 Days Of React</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small></sub>
-
-</div>
 
 [Day 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
 
