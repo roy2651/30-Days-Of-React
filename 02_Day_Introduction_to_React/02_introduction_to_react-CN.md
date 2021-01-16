@@ -7,7 +7,7 @@
 
 <span>前面课时因为是介绍是的JavaScript的基础知识，可以自己查看</span>
 
-[<< Day 1](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [Day 3 >>](../03_Day_Setting_Up/03_setting_up.md)
+[<< 第一天](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [第三天 >>](../03_Day_Setting_Up/03_setting_up.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_2.jpg)
 
@@ -17,23 +17,23 @@
     - [2020年10月React vs Vue 受欢迎程度](#2020年10月react-vs-vue-受欢迎程度)
     - [2020年2月React vs Vue 受欢迎程度](#2020年2月react-vs-vue-受欢迎程度)
   - [3. JSX](#3-jsx)
-    - [JSX Element](#jsx-element)
-    - [Commenting a JSX element](#commenting-a-jsx-element)
-    - [Rendering a JSX Element](#rendering-a-jsx-element)
-    - [Style and className in JSX](#style-and-classname-in-jsx)
-    - [Injecting data to a JSX Element](#injecting-data-to-a-jsx-element)
-      - [Injecting a string to a JSX Element](#injecting-a-string-to-a-jsx-element)
+    - [JSX 元素](#jsx-元素)
+    - [注释JSX元素](#注释jsx元素)
+    - [渲染JSX元素](#渲染jsx元素)
+    - [JSX中的样式和类名](#jsx中的样式和类名)
+    - [将数据注入JSX元素](#将数据注入jsx元素)
+      - [将字符串注入JSX元素](#将字符串注入jsx元素)
       - [Injecting a number to a JSX Element](#injecting-a-number-to-a-jsx-element)
-      - [Injecting an array to a JSX Element](#injecting-an-array-to-a-jsx-element)
-      - [Injecting an object to a JSX Element](#injecting-an-object-to-a-jsx-element)
-  - [Exercises](#exercises)
-    - [Exercises: What is React?](#exercises-what-is-react)
-    - [Exercises: Why React?](#exercises-why-react)
-    - [Exercises: JSX](#exercises-jsx)
-    - [Exercises: JSX Elements](#exercises-jsx-elements)
-    - [Exercises: Inline Style](#exercises-inline-style)
-    - [Exercises: Internal Styles](#exercises-internal-styles)
-    - [Exercise: Inject data to JSX](#exercise-inject-data-to-jsx)
+      - [将数组注入JSX元素](#将数组注入jsx元素)
+      - [将对象注入JSX元素](#将对象注入jsx元素)
+  - [练习题](#练习题)
+    - [练习：什么是React？](#练习什么是react)
+    - [为什么是React?](#为什么是react)
+    - [练习：JSX](#练习jsx)
+    - [练习：JSX 元素](#练习jsx-元素)
+    - [练习：内联样式](#练习内联样式)
+    - [练习：内部风格](#练习内部风格)
+    - [练习：将数据注入JSX](#练习将数据注入jsx)
 
 ## React入门
 
@@ -96,7 +96,7 @@ Vue 官方Git
 
 ### 3. JSX
 
-JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScript code. An HTML element has an opening and closing tags, content, and attribute in the opening tag. However, some HTML elements may not have content and a closing tag - they are self closing elements. To create HTML elements in React we do not use the _createElement()_ instead we just use JSX elements. Therefore, JSX makes it easier to write and add HTML elements in React. JSX will be converted to JavaScript on browser using a transpiler - [babel.js](https://babeljs.io/). Babel is a library which transpiles JSX to pure JavaScript and latest JavaScript to older version. See the JSX code below.
+JSX代表JavaScript XML。JSX允许我们使用JavaScript代码编写HTML元素。HTML元素在开始标记中具有开始和结束标记，内容和属性。但是，某些HTML元素可能没有内容和结束标记-它们是自闭合元素。为了在React中创建HTML元素，我们不使用createElement（）而是使用JSX元素。因此，JSX使在React中编写和添加HTML元素变得更加容易。 JSX将使用 transpiler- [babel.js](https://babeljs.io/) 在浏览器上转换为JavaScript。Babel是一个将JSX转换为纯JavaScript以及将最新的JavaScript转换为较旧版本的库。请参见下面的JSX代码。
 
 ```js
 // JSX syntax
@@ -107,25 +107,25 @@ const welcome = <h1>Welcome to 30 Days of React Challenge</h1>
 const data = <small>Oct 2, 2020</small>
 ```
 
-The above strange looking code seems like JavaScript and it seems like , but it is not JavaScript and it seems like HTML but not completely an HTML element. It is a mix of JavaScript and an HTML elements. JSX can allow us to use HTML in JavaScript. The HTML element in the JSX above is _h1_ and _small_.
+上面看起来很奇怪的代码看起来像JavaScript，看起来像，但是它不是JavaScript，看起来像HTML，但不完全是HTML元素。它是JavaScript和HTML元素的混合。JSX可以使我们在JavaScript中使用HTML。上面的JSX中的HTML元素是 _h1_ 和 _small_。
 
-#### JSX Element
+#### JSX 元素
 
-As you have seen in the example above, JSX has a JavaScript and HTML like syntax. JSX element could be a single HTML element or many HTML elements wrapped in a parent HTML element.
+如您在上面的示例中所看到的，JSX具有JavaScript和HTML之类的语法。JSX元素可以是单个HTML元素，也可以是包裹在父HTML元素中的许多HTML元素。
 
-This JSX element has only one HTML element which is _h1_.
+此JSX元素只有一个HTML元素，即 _h1_.
 
 ```js
 const jsxElement = <h1>I am a JSX element</h1> // JS with HTML
 ```
 
-Let's make more JSX elements by declaring a new variable named title and content inside _h2_.
+让我们通过在 _h2_ 中声明一个名为title和content的新变量来制作更多JSX元素。
 
 ```js
 const title = <h2>Getting Started React</h2>
 ```
 
-Let us add a subtitles and other contents to this JSX element by adding additional HTML elements. Every HTML element should be wrapped by an outer HTML element to create a valid JSX element. The name title variable also should be changed to header because our JSX element is containing almost all of the header of the application.
+让我们通过添加其他HTML元素来向此JSX元素添加字幕和其他内容。每个HTML元素都应由外部HTML元素包装，以创建有效的JSX元素。名称标题变量也应该更改为header，因为我们的JSX元素几乎包含了应用程序的所有标题
 
 ```js
 const header = (
@@ -137,7 +137,7 @@ const header = (
 )
 ```
 
-Let us keep adding more elements. Additional HTML elements to display the author name and year.
+让我们继续添加更多元素。显示作者姓名和年份的其他HTML元素。
 
 ```js
 const header = (
@@ -151,11 +151,11 @@ const header = (
 )
 ```
 
-As you can see the _header_ element is a parent element for all the inner HTML elements and JSX must be wrapped by an outer parent element. Without the _header_ HTML element or other parent HTML element the above JSX is invalid.
+如您所见，_header_ 元素是所有内部HTML元素的父元素，并且JSX必须由外部父元素包装。如果没有 _标题_  HTML元素或其他父HTML元素，则上述JSX无效。
 
-#### Commenting a JSX element
+#### 注释JSX元素
 
-We comment codes for different reasons and it is also good to know how to comment out JSX elements in React.
+我们出于各种原因对代码进行注释，并且知道如何在React中注释掉JSX元素也很不错。
 
 ```js
 {
@@ -172,9 +172,9 @@ We comment codes for different reasons and it is also good to know how to commen
 }
 ```
 
-#### Rendering a JSX Element
+#### 渲染JSX元素
 
-To render a JSX element to HTML document, we should first create an index HTML. The index.html is the only HTML file you will have in any React Application. That is why we say that every React Application is a single page application. Let us create an index.html file. We can get started with React in two ways - either by using CDN or create-react-app. The create-react-app creates a React project boilerplate outbox and because of that, many people do have a hard time to understand how React works. In order to make things clear for absolute beginners I would like to start with a CDN. We use CDN only in this section and we will use the create-reap-app in the rest of the challenge and I also recommend you to use only create-react-app all the time.
+要将JSX元素呈现为HTML文档，我们首先应该创建一个索引HTML。index.html是您在任何React Application中将拥有的唯一HTML文件。这就是为什么我们说每个React Application是一个单页应用程序的原因。让我们创建一个index.html文件。我们可以通过两种方式开始使用React-通过使用CDN或create-react-app。create-react-app创建了一个React项目样板发件箱，因此，许多人确实很难理解React的工作方式。为了让绝对的初学者清楚明白，我想从CDN开始。我们仅在本节中使用CDN，在其余的挑战中我们将使用create-reap-app，并且我还建议您始终仅使用create-react-app。
 
 ```html
 <!DOCTYPE html>
@@ -193,7 +193,7 @@ To render a JSX element to HTML document, we should first create an index HTML. 
 </html>
 ```
 
-As you can see from the above index.html, we have one div with a class root and script. The root _div_ is the gateway to connect all react components to the index.html. In the script tag we will write our JavaScript, but the script _type_ will be _babel_. Babel will _transpile_ the react JSX to pure JavaScript on the browser. Let us add babel to the script. Inside the babel, we can write any pure JavaScript, JSX and in general any React code.
+从上面的index.html中可以看到，我们有一个 _div_，其中包含类根目录和脚本。root _div_ 是将所有React组件连接到index.html的网关。在script标签中，我们将编写JavaScript，但是script _type_ 将为 _babel_ 。Babel将在浏览器上将react JSX转换为纯JavaScript。让我们将babel添加到脚本中。在babel内部，我们可以编写任何纯JavaScript，JSX以及一般任何React代码
 
 ```html
 <!DOCTYPE html>
@@ -213,8 +213,7 @@ As you can see from the above index.html, we have one div with a class root and 
   </body>
 </html>
 ```
-
-The babel library is linked to our document and now we can make use of it. The next step is importing _React_ and _ReactDOM_ using CDN or link. In order to link React and ReactDOM, we attach both packages from CDN to the body of index.html. To test if React is linked to the index.html, try to check it by doing console.log(React). Open the browser console and you should get an object. If you see an object containing React methods then you managed to link your project with React CDN and you are ready to use React.
+babel库已链接到我们的文档，现在我们可以使用它了。下一步是使用CDN或链接导入 _React_ 和 _ReactDOM_ 。为了链接React和ReactDOM，我们将CDN的两个包都附加到index.html的主体上。要测试React是否链接到index.html，请尝试通过console.log（React）进行检查。打开浏览器控制台，您应该得到一个对象。如果您看到一个包含React方法的对象，那么您就可以将项目与React CDN链接起来，并且可以使用React了。
 
 ```html
 <!DOCTYPE html>
@@ -243,10 +242,9 @@ The babel library is linked to our document and now we can make use of it. The n
   </body>
 </html>
 ```
+现在index.html具有编写React代码所需的一切。让我们使用document.querySelect（'.root'）获得根元素，并将其分配给变量名称rootElement。这是我们直接与DOM进行交互的唯一位置。
 
-Now the index.html has everything we need to write React code. Let us get the root element using document.querySelect('.root') and assign it to a variable name rootElement. The is the only place we directly interact with DOM.
-
-Now, you knew JSX and JSX element. Let us render the JSX element on the browser, in order to do so we need the React and ReactDOM library. In addition to the React and ReactDOM we need babel to transpile the JSX to JavaScript code. The ReactDOM package has a method render. The render method takes two arguments:a JSX element or a component and the root document. See the code below. [Live on code pen](https://codepen.io/Asabeneh/full/JjdbjqK).
+现在，您知道了JSX和JSX元素。让我们在浏览器上呈现JSX元素，为此，我们需要React和ReactDOM库。除了React和ReactDOM之外，我们还需要babel将JSX转换为JavaScript代码。ReactDOM包有一个render方法。render方法带有两个参数：JSX元素或组件以及根文档。请参见下面的代码 [Code Pen](https://codepen.io/Asabeneh/full/JjdbjqK)。
 
 ```html
 <!DOCTYPE html>
@@ -286,8 +284,8 @@ Now, you knew JSX and JSX element. Let us render the JSX element on the browser,
 
 ![Rendering JSX](../images/rendering_jsx.png)
 
-Let us render more content. To render more content, the JSX element should have more HTML elements. For instance, we can create a header of a website and header may have a title, subtitle, author or date etc. Remember, we can render only one JSX element at a time.
-[Live on code pen](https://codepen.io/Asabeneh/full/QWbGWeY).
+让我们呈现更多内容。要呈现更多内容，JSX元素应具有更多HTML元素。例如，我们可以创建网站的标题，标题中可以包含标题，副标题，作者或日期等。请记住，我们一次只能渲染一个JSX元素 [Code Pen](https://codepen.io/Asabeneh/full/QWbGWeY)。
+.
 
 ```html
 <!DOCTYPE html>
@@ -335,9 +333,9 @@ Let us render more content. To render more content, the JSX element should have 
 
 ![Rendering more content](../images/rendering_more_jsx_content_.png)
 
-We have created a JSX element for the header of the website. How about the main and the footer for the website? Similar to the header, let us create a JSX element for the main and the footer.
+我们为网站的标题创建了一个JSX元素。网站的主要和页脚如何？与页眉类似，让我们为main和footer创建一个JSX元素。
 
-JSX element for the main part of the website.
+网站主要部分的JSX元素。
 
 ```js
 // JSX element
@@ -353,7 +351,7 @@ const main = (
 )
 ```
 
-JSX element for the footer part of the website.
+网站页脚部分的JSX元素。
 
 ```js
 // JSX element
@@ -364,7 +362,7 @@ const footer = (
 )
 ```
 
-Now, we have three JSX elements: the header, main and footer. The best way to render all of the three JSX elements is by wrapping them all in a parent JSX element or putting them in an array. To include JSX element inside another JSX element we use the curly bracket, {} and call the name of the JSX inside the curly bracket.
+现在，我们有了三个JSX元素：页眉，主要和页脚。呈现所有三个JSX元素的最佳方法是将它们全部包装在父JSX元素中或放置在数组中。要将JSX元素包含在另一个JSX元素内，我们使用大括号{}，并在大括号内调用JSX的名称。
 
 ```js
 // JSX element for the header part of the website
@@ -407,7 +405,7 @@ const app = (
 )
 ```
 
-Now, let us put everything together and render it to the browser. [Live on code pen](https://codepen.io/Asabeneh/full/MWwbYWg).
+现在，让我们将所有内容放在一起并呈现到浏览器中。 [Code Pen](https://codepen.io/Asabeneh/full/MWwbYWg).
 
 ```html
 <!DOCTYPE html>
@@ -485,17 +483,17 @@ Now, let us put everything together and render it to the browser. [Live on code 
 
 ![Rendering Multiple JSX Elements](../images/rendering_multiple_jsx_elements.png)
 
-Let us apply some style to our JSX elements and see the result.
+让我们对JSX元素应用一些样式，然后查看结果。
 
 ![Styling JSX Element](../images/styling_jsx_element.png).
 
-Now, lets us apply style the header part only [Live on code pen](https://codepen.io/Asabeneh/full/ZEGBYBG).
+现在，让我们将标头部分的样式仅应用 [Code Pen](https://codepen.io/Asabeneh/full/ZEGBYBG).
 
-#### Style and className in JSX
+#### JSX中的样式和类名
 
-So far, we did not apply any style in the JSX elements. Now, let us add style to our JSX elements. Inline style became very popular after the emergence of react. Let us add border to the header JSX element.
+到目前为止，我们尚未在JSX元素中应用任何样式。现在，让我们为JSX元素添加样式。在出现react之后，内联样式变得非常流行。让我们为header JSX元素添加边框。
 
-To add style to a JSX element we use inline style or className. We inject the style object using {}. Every CSS property becomes a key and every CSS property value becomes a value for the the object. For instance, in the example below, border is a key and '2px solid orange' is a value, color is a key and 'black' is a value, fontSize is a key and '18px' is a value. All two word CSS properties will change to camelCase when we use them as key in the CSS object in React or JavaScript.[Live on code pen](https://codepen.io/Asabeneh/full/ZEGBYbY).
+要将样式添加到JSX元素，我们使用内联样式或className。我们使用{}注入样式对象。每个CSS属性都将成为键，并且每个CSS属性值都将成为该对象的值。例如，在下面的示例中，border是一个键，“ 2px纯橙色”是一个值，color是一个键，“ black”是一个值，fontSize是一个键，而“ 18px”是一个值。当我们在React或JavaScript的CSS对象中将这两个单词的CSS属性用作键时，所有这两个单词的CSS属性都将更改为camelCase。[Code Pen](https://codepen.io/Asabeneh/full/ZEGBYbY).
 
 ```js
 const header = (
@@ -525,11 +523,11 @@ const header = (
 )
 ```
 
-It is good practice to open the browser console while you are developing your application to know, if everything goes well.
+好的做法是在开发应用程序时打开浏览器控制台，以了解一切是否顺利。
 
-Let us keep styling all the JSX elements we have created: the header, main and the footer. We can also use regular internal styling to style our application. Using regular style, to target an HTML element we use tag name, id, class, an attribute and other methods. It is very common in the React developer community - people use classes quite a lot instead of id. In this material, I will use only class instead of id.
+让我们继续设计所有已创建的JSX元素的样式：页眉，主要和页脚。我们还可以使用常规的内部样式来样式化我们的应用程序。使用常规样式，以HTML元素为目标，我们使用标签名称，id，类，属性和其他方法。这在React开发人员社区中很常见-人们使用类而不是id来大量使用。在本文中，我将仅使用类而不是id。
 
-In JSX element we write className instead of class because class is a reserved word in JavaScript. Similar to className, htmlFor instead of for in label tag. See the example below.
+在JSX元素中，我们编写className而不是class，因为class是JavaScript中的保留字。与className类似，htmlFor代替了label标签中的for。请参见下面的示例。
 
 ```js
 const title = <h1 className='title'>Getting Started React</h1>
@@ -541,13 +539,13 @@ const inputField = (
 )
 ```
 
-The id used in the input element is not for styling purpose, instead to refer the label to the input field.
+输入元素中使用的id并非用于样式目的，而是用于将标签引用到输入字段。
 
-If class is used instead of className or for instead of htmlFor you will see such kind of warning.
+如果使用class代替className或for代替htmlFor，您将看到这种警告。
 
 ![Class Name warning](../images/className_warning.png)
 
-Now, you know how to use the inline style and how to use className. Let us style all the JSX elements.
+现在，您知道如何使用内联样式以及如何使用className。让我们设置所有JSX元素的样式。
 
 ```html
 <!DOCTYPE html>
@@ -638,7 +636,7 @@ Now, you know how to use the inline style and how to use className. Let us style
 
 ![Styling all JSX elements](../images/styling_all_jsx_elements.png)
 
-Instead of style object using regular styling method is more easy than the one above. Now, let us use internal style to style all the JSX. It is also possible to use external styling method. [Live on code pen](https://codepen.io/Asabeneh/full/QWbGwge)
+使用常规样式方法代替样式对象比上面的方法更容易。现在，让我们使用内部样式来样式化所有JSX。也可以使用外部样式方法。 [Code Pen](https://codepen.io/Asabeneh/full/QWbGwge)
 
 ```html
 <!DOCTYPE html>
@@ -809,9 +807,9 @@ Instead of style object using regular styling method is more easy than the one a
 
 ![Internal Style](../images/internal_style.png)
 
-#### Injecting data to a JSX Element
+#### 将数据注入JSX元素
 
-So far, we used static data on the JSX elements, but we can also pass different data types as a dynamic data. The dynamic data could be string, number, boolean, array or object. Let us see each of the data types step by step. To inject data to a JSX we use the {} bracket.
+到目前为止，我们在JSX元素上使用了静态数据，但是我们也可以将不同的数据类型作为动态数据进行传递。动态数据可以是字符串，数字，布尔值，数组或对象。让我们逐步查看每种数据类型。要将数据注入JSX，我们使用{}括号。
 
 ```js
 const welcome = 'Welcome to 30 Days Of React'
@@ -837,11 +835,11 @@ const header = (
 )
 ```
 
-Similar to the header JSX element, we can implement data injection to main and footer JSX elements.
+与标头JSX元素相似，我们可以对主要和页脚JSX元素实施数据注入。
 
-##### Injecting a string to a JSX Element
+##### 将字符串注入JSX元素
 
-In this section we inject only strings
+在本节中，我们仅注入字符串
 
 ```js
 const welcome = 'Welcome to 30 Days Of React'
@@ -887,11 +885,11 @@ const age = currentYear - yearBorn
 const personAge = <p> {age}</p>
 ```
 
-As you can see in the example above, it is possible to do some arithmetic calculations and ternary operations.
+如您在上面的示例中看到的，可以进行一些算术计算和三元运算。
 
-##### Injecting an array to a JSX Element
+##### 将数组注入JSX元素
 
-To give an example for an array, let us change the HTML, CSS, JavaScript to an array and inject it to the main JSX element below. We will cover more in much detail later, in rendering lists section.
+举一个数组的例子，让我们将HTML，CSS，JavaScript更改为数组并将其注入下面的主要JSX元素。我们将在稍后的“渲染列表”部分中更详细地介绍。
 
 ```js
 const techs = ['HTML', 'CSS', 'JavaScript']
@@ -913,11 +911,11 @@ const main = (
 )
 ```
 
-##### Injecting an object to a JSX Element
+##### 将对象注入JSX元素
 
-We can inject string, number, boolean, array data to JSX but we cannot directly inject an object. We should extract object values first or destructure the content of the object before we inject the data to the JSX element. For instance, let us write firstName and lastName inside an object and extract them to use them inside JSX.
+我们可以将字符串，数字，布尔值，数组数据注入JSX，但不能直接注入对象。在将数据注入JSX元素之前，我们应该首先提取对象值或对对象的内容进行解构。例如，让我们在一个对象内编写firstName和lastName并将其提取以在JSX中使用它们。
 
-Now, let us put everything together. Here, in the example below, the data is injected dynamically to the JSX. [Live on code pen](https://codepen.io/Asabeneh/full/YzXWgpZ)
+现在，让我们将所有内容放在一起。在这里，在下面的示例中，数据被动态注入到JSX中。 [Code Pen](https://codepen.io/Asabeneh/full/YzXWgpZ)
 
 ```html
 <!DOCTYPE html>
@@ -1120,14 +1118,14 @@ Now, let us put everything together. Here, in the example below, the data is inj
 
 ![Dynamic Data](../images/dynamic_data.png)
 
-As you can see the lists are all in one line. Therefore, we should format the list the way we want, before we inject it to JSX. In order to format the list, we should modify the array before we will inject it to JSX. We can modify the array using _map_. As a react developer you should have a very good understanding of functional programming(map, filter, reduce, find, some, every). If you don't have good understanding of functional programming, check out day 1.
+如您所见，列表全都在一行中。因此，在将列表注入JSX之前，应该以所需的方式格式化列表。为了格式化列表，我们应该先修改数组，然后再将其注入JSX。我们可以使用map修改数组。作为一名React开发人员，您应该对函数式编程非常了解（映射，过滤，缩小，查找，每一个）。如果您对函数式编程不太了解，请查看第1天。
 
 ```js
 const techs = ['HTML', 'CSS', 'JavaScript']
 const techsFormatted = techs.map((tech) => <li>{tech}</li>)
 ```
 
-In the following code example, the list is now containing list elements and it is formatted properly.
+在下面的代码示例中，列表现在包含列表元素，并且格式正确。
 
 ```html
 <!DOCTYPE html>
@@ -1329,10 +1327,11 @@ In the following code example, the list is now containing list elements and it i
 </html>
 ```
 
-Rendering lists
+渲染清单
 
 ![List Id](../images/map_list_id.png)
-As you can see above, now the lists are formatted properly, but there is a warning on the console, which says each list child should have a unique key. In the array, we do not have id, but it is common to pass id as a unique value, when you have id in your data. Now, let us just pass each item with a unique key to remove the warning.
+
+如您在上方所见，现在列表已正确格式化，但是控制台上有一个警告，提示每个列表子项都应具有唯一的键。在数组中，我们没有id，但是当您在数据中有id时，通常会将id作为唯一值传递。现在，让我们为每个项目传递一个唯一的键以删除警告
 
 ```html
 <!DOCTYPE html>
@@ -1537,59 +1536,59 @@ As you can see above, now the lists are formatted properly, but there is a warni
 
 ![Removing the warning ](../images/removing_unique_id_warning.png)
 
-Now, you have a very good understanding of how to create JSX elements and also how to inject data to JSX. In the next section, we will talk about how to use create-react-app and components. Components are more powerful and useful than JSX.
+现在，您对如何创建JSX元素以及如何将数据注入JSX有了很好的了解。在下一节中，我们将讨论如何使用create-react-app和组件。组件比JSX更强大和有用。
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 你太棒了。您刚刚完成了第二天的挑战，并且在迈向卓越的道路上前进了两个步骤。现在，为您的大脑和肌肉做一些运动
 
-### Exercises
+### 练习题
 
-#### Exercises: What is React?
+#### 练习：什么是React？
 
-1. What is React?
-2. What is a library?
-3. What is a single page application?
-4. What is a component ?
-5. What is the latest version of React?
-6. What is DOM?
-7. What is React Virtual DOM?
-8. What does a web application or a website(composed of) have?
+1. 什么是React？
+2. 什么是 library?
+3. 什么是单页应用程序?
+4. 什么是 组件 ?
+5. React的最新版本是什么?
+6. 什么是DOM?
+7. 什么是React Virtual DOM?
+8. Web应用程序或网站（由其组成）具有什么?
 
-#### Exercises: Why React?
+#### 为什么是React?
 
-1. Why did you chose to use react?
-2. What measures do you use to know popularity ?
-3. What is more popular, React or Vue ?
+1. 您为什么选择使用react?
+2. 什么是衡量流行 ?
+3. 最受欢迎的是React还是Vue ?
 
-#### Exercises: JSX
+#### 练习：JSX
 
-1. What is an HTML element?
-2. How to write a self closing HTML element?
-3. What is an HTML attribute? Write some of them
-4. What is JSX?
-5. What is babel?
-6. What is a transpiler?
+1. 什么是HTML元素
+2. 如何编写完整HTML元素?
+3. 什么是HTML属性？写一些
+4. 什么是JSX?
+5. 什么是babel?
+6. 什么是转义器?
 
-#### Exercises: JSX Elements
+#### 练习：JSX 元素
 
-1. What is a JSX element?
-2. Write your name in a JSX element and store it in a name variable
-3. Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
-4. Write a footer JSX element
+1. 什么是JSX元素?
+2. 将您的姓名写在JSX元素中，并将其存储在name变量中
+3. 写一个JSX元素，显示您的全名，国家/地区，标题，性别，电子邮件，电话号码。将 _h1_ 用作名称，将 _p_ 用作其余信息，并将其存储在用户变量中
+4. 写一个页脚JSX元素
 
-#### Exercises: Inline Style
+#### 练习：内联样式
 
-1. Create a style object for the main JSX
-2. Create a style object for the footer and app JSX
-3. Add more styles to the JSX elements
+1. 主要JSX创建样式对象
+2. 为页脚和应用JSX创建样式对象
+3. 向JSX元素添加更多样式
 
-#### Exercises: Internal Styles
+#### 练习：内部风格
 
-1. Apply different styles to your JSX elements
+1. 将不同的样式应用于JSX元素
 
-#### Exercise: Inject data to JSX
+#### 练习：将数据注入JSX
 
-1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
+1. 练习如何制作JSX元素并注入动态数据（字符串，数字，布尔值，数组，对象）
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 1](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [Day 3 >>](../03_Day_Setting_Up/03_setting_up.md)
+[<< 第一天](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [第三天 >>](../03_Day_Setting_Up/03_setting_up.md)
