@@ -101,7 +101,7 @@ Support [*Asabeneh*](https://www.patreon.com/asabeneh?fan_landing=true) to creat
 我相信您将在接下来的30天内学到很多东西，并且您的编程和解决问题的能力也会得到显着提高。
 
 
- **我对有些地方就直接采用机翻来翻译，如果有读不懂的可以去看一下原文，我也是第一次去尝试边学习边翻译，如果大家有星期的话可以一起来学习，我也是乘机学习一次啊React，有写基础性的我就不翻译了，因为名词很难懂，这里作者还有一些30天学习的项目，如果想学习JavaScript的知识可以去学习 [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 这个项目**
+ **我对有些地方就直接采用机翻来翻译，如果有读不懂的可以去看一下原文，我也是第一次去尝试边学习边翻译，如果大家有兴趣的话可以一起来学习，我也是乘机学习一次React，有写基础性的我就不翻译了，因为名词很难懂，这里作者还有一些30天学习的项目，如果想学习JavaScript的知识可以去学习 [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) 这个项目**
 
 
 ## 依赖
