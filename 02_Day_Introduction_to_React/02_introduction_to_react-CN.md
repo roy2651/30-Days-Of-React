@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30天学习React中文版</h1>
+  <h1> 30天学习React：介绍</h1>
  
    翻译自 [30 Days Of React: Getting Started React](https://github.com/Asabeneh/30-Days-Of-React)
 
@@ -7,7 +7,7 @@
 
 <span>前面课时因为是介绍是的JavaScript的基础知识，可以自己查看</span>
 
-[<< 第一天](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [第三天 >>](../03_Day_Setting_Up/03_setting_up.md)
+[<< 第一天](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [第三天 >>](../03_Day_Setting_Up/03_setting_up-CN.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_2.jpg)
 
