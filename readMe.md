@@ -20,11 +20,11 @@
 |00|[介绍](#介绍)<br>[依赖](#依赖) <br>[如何使用此库](#如何使用此库)<br> [安装](#安装)|
 |01|[JavaScript 相关基础](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)|
 |02|[React入门](./02_Day_Introduction_to_React/02_introduction_to_react-CN.md)|
-|03|[安装](./03_Day_Setting_Up/03_setting_up.md)|
-|04|[组件](./04_Day_Components/04_components.md)|
-|05|[Props](./05_Day_Props/05_props.md)|
-|06|[列表, Map and Keys](./06_Day_Map_List_Keys/06_map_list_keys.md)|
-|07|[类组件](./07_Day_Class_Components/07_class_components.md)|
+|03|[安装](./03_Day_Setting_Up/03_setting_up-CN.md)|
+|04|[组件](./04_Day_Components/04_components-CN.md)|
+|05|[Props](./05_Day_Props/05_props-CN.md)|
+|06|[列表, Map and Keys](./06_Day_Map_List_Keys/06_map_list_keys-CN.md)|
+|07|[类组件](./07_Day_Class_Components/07_class_components-CN.md)|
 |08|[States](./08_Day_States/08_states.md)|
 |09|[条件渲染](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
 |10|[React文件结构](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
