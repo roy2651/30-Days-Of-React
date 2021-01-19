@@ -25,7 +25,7 @@
 |05|[Props](./05_Day_Props/05_props-CN.md)|
 |06|[列表, Map and Keys](./06_Day_Map_List_Keys/06_map_list_keys-CN.md)|
 |07|[类组件](./07_Day_Class_Components/07_class_components-CN.md)|
-|08|[States](./08_Day_States/08_states.md)|
+|08|[States](./08_Day_States/08_states-CN.md)|
 |09|[条件渲染](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
 |10|[React文件结构](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
 |11|[事件](./11_Day_Events/11_events.md)|
