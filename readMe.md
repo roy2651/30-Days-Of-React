@@ -29,8 +29,8 @@
 |09|[条件渲染](./09_Day_Conditional_Rendering/09_conditional_rendering-CN.md)|
 |10|[React文件结构](./10_React_Project_Folder_Structure/10_react_project_folder_structure-CN.md)|
 |11|[事件](./11_Day_Events/11_events-CN.md)|
-|12|[表单](./12_Day_Forms/12_forms.md)|
-|13|[受控组件和非受控组件](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)|
+|12|[表单](./12_Day_Forms/12_forms-CN.md)|
+|13|[受控组件和非受控组件](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input-CN.md)|
 |14|[组件的生命周期](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)|
 |15|[第三库](./15_Third_Party_Packages/15_third_party_packages.md)|
 |16|[高级组件](./16_Higher_Order_Component/16_higher_order_component.md)|
