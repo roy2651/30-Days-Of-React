@@ -33,7 +33,7 @@
 |13|[受控组件和非受控组件](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input-CN.md)|
 |14|[组件的生命周期](./14_Day_Component_Life_Cycles/14_component_life_cycles-CN.md)|
 |15|[第三方库](./15_Third_Party_Packages/15_third_party_packages-CN.md)|
-|16|[高级组件](./16_Higher_Order_Component/16_higher_order_component.md)|
+|16|[高阶组件](./16_Higher_Order_Component/16_higher_order_component-CN.md)|
 |17|[React路由](./17_React_Router/17_react_router.md)|
 |18|[通过 Axios获取数据](./18_Fetch_And_Axios/18_fetch_axios.md)|
 |19|[项目1](./19_projects/19_projects.md)|
