@@ -35,7 +35,7 @@
 |15|[第三方库](./15_Third_Party_Packages/15_third_party_packages-CN.md)|
 |16|[高阶组件](./16_Higher_Order_Component/16_higher_order_component-CN.md)|
 |17|[React路由](./17_React_Router/17_react_router-CN.md)|
-|18|[通过 Axios获取数据](./18_Fetch_And_Axios/18_fetch_axios.md)|
+|18|[通过 Fetch和Axios获取数据](./18_Fetch_And_Axios/18_fetch_axios-CN.md)|
 |19|[项目1](./19_projects/19_projects.md)|
 |20|[项目2](./20_projects/20_projects.md)|
 |21|[Hooks](./21_Introducing_Hooks/21_introducing_hooks.md)|

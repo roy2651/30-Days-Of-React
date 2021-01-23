@@ -2,7 +2,7 @@
   <h1> 30 Days Of React: React路由</h1>
 </div>
 
-[<< 第十六天](../16_Higher_Order_Component/16_higher_order_component-CN.md) | [第十八天 >>](../18_projects/18_projects-CN.md)
+[<< 第十六天](../16_Higher_Order_Component/16_higher_order_component-CN.md) | [第十八天 >>](../18_Fetch_And_Axios/18_Fetch_And_Axios-CN.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_17.jpg)
 
@@ -1715,4 +1715,4 @@ coming
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< 第十六天](../16_Higher_Order_Component/16_higher_order_component-CN.md) | [第十八天 >>](../18_projects/18_projects-CN.md)
+[<< 第十六天](../16_Higher_Order_Component/16_higher_order_component-CN.md) | [第十八天 >>](../18_Fetch_And_Axios/18_Fetch_And_Axios-CN.md)
