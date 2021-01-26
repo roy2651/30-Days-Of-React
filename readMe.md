@@ -39,10 +39,10 @@
 |19|[项目1](./19_projects/19_projects-CN.md)|
 |20|[项目2](./20_projects/20_projects-CN.md)|
 |21|[Hooks](./21_Introducing_Hooks/21_introducing_hooks-CN.md)|
-|22|[表单使用Hooks](./22_Form_Using_Hooks/22_form_using_hooks.md)|
-|23|[使用Hooks获取数据](./23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks.md)|
-|24|[项目使用Hooks](./24_projects/24_projects.md)|
-|25|[传统Hooks](./25_Custom_Hooks/25_custom_hooks.md)|
+|22|[表单使用Hooks](./22_Form_Using_Hooks/22_form_using_hooks-CN.md)|
+|23|[使用Hooks获取数据](./23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks-CN.md)|
+|24|[项目使用Hooks](./24_projects/24_projects-CN.md)|
+|25|[自定义Hooks](./25_Custom_Hooks/25_custom_hooks-CN.md)|
 |26|[Context](./26_Context/26_context.md)|
 |27|[Ref](./27_Ref/27_ref.md)|
 |28|[项目3](./28_project/28_project.md)|
